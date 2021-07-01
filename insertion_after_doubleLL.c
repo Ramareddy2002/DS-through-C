@@ -28,7 +28,7 @@ else
 		temp=temp->next;
 	}
 	new->next=temp->next;
-	temp->next->prev=new;
+	temp->next->prev=new;//(temp->next)->prev means last node prev
 	temp->next=new;
 	new->prev=temp;
 }
