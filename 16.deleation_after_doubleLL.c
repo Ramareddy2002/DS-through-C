@@ -8,7 +8,9 @@ void insertafter()
 {
 	struct node *temp,*ptr;
 	new=(struct node *)malloc(sizeof(struct node *)); 
-	int x,val;
+	int val;
+	printf("enter the node ele where we have to delete after");
+        scanf("%d",&val);
 	temp=start;
 	while(temp->data!=val)
 	{
