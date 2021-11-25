@@ -72,3 +72,4 @@ void display()
 		printf("%d\t",a[i]);
 	}
 }
+//
